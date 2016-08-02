@@ -470,14 +470,14 @@ def on_freq_change(widget, event):
 def on_freq_plus(widget):
   """ Frequency '>' button """
   global frequency
-  frequency = frequency + samplerate*0.8
+  frequency = frequency + samplerate
   cl.set_frequency(frequency)
   tb_freq.set_text(str(frequency))
 
 def on_freq_minus(widget):
   """ Frequency '<' button """
   global frequency
-  frequency = frequency - samplerate*0.8
+  frequency = frequency - samplerate
   cl.set_frequency(frequency)
   tb_freq.set_text(str(frequency))
 

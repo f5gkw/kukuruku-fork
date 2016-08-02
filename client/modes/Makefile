@@ -3,7 +3,7 @@ CFLAGS = -d .
 
 all: modes
 
-MODES = tetrapol.py tetra.py nfm.py mfm.py wfm.py raw.py multimon.py dsd.py
+MODES = tetrapol.py tetra.py nfm.py mfm.py wfm.py raw.py multimon.py dsd.py aprs.py sigins.py
 #MODES =  multimon.py
 
 %.py: %.grc
