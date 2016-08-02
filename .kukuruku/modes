@@ -69,3 +69,22 @@ transition=8000
 filtertype=hamming
 program=_MODEPATH_/raw.py -s 128000
 resample=yes
+
+[Multimon]
+name=Multimon  (nfm 24k)
+rate=24000
+bw=11000
+transition=1024
+filtertype=rcos
+program=_MODEPATH_/multimon.sh
+resample=yes
+
+[Digital Speech Decoder]
+name=Digital Speech Decoder  (nfm 24k)
+rate=24000
+bw=11000
+transition=1024
+filtertype=rcos
+program=_MODEPATH_/dsd.sh
+resample=yes
+

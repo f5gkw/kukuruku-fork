@@ -31,7 +31,7 @@ class top_block(gr.top_block):
     self.osmosdr_source.set_if_gain(int(gain), 0)
     self.osmosdr_source.set_bb_gain(int(gain), 0)
     self.osmosdr_source.set_antenna("", 0)
-    self.osmosdr_source.set_bandwidth(int(rate), 0)
+    self.osmosdr_source.set_bandwidth((int(rate)*0.9), 0)
       
     self.blocks_file_sink = blocks.file_sink(gr.sizeof_gr_complex, outpipe, False)
     self.blocks_file_sink.set_unbuffered(False)

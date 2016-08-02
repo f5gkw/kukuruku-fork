@@ -46,7 +46,7 @@
     </param>
     <param>
       <key>id</key>
-      <value>multimon</value>
+      <value>dsd</value>
     </param>
     <param>
       <key>max_nouts</key>
@@ -78,7 +78,7 @@
     </param>
     <param>
       <key>title</key>
-      <value>Multimon decoder</value>
+      <value>Digital Speech Decoder</value>
     </param>
   </block>
   <block>
@@ -383,7 +383,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(736, 564)</value>
+      <value>(784, 420)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -682,7 +682,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(784, 300)</value>
+      <value>(784, 188)</value>
     </param>
     <param>
       <key>_rotation</key>
